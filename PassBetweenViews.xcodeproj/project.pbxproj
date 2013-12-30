@@ -1,0 +1,456 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0128E70F1871BB71007AEDC6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0128E70E1871BB71007AEDC6 /* Foundation.framework */; };
+		0128E7111871BB72007AEDC6 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0128E7101871BB72007AEDC6 /* CoreGraphics.framework */; };
+		0128E7131871BB72007AEDC6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0128E7121871BB72007AEDC6 /* UIKit.framework */; };
+		0128E7191871BB72007AEDC6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0128E7171871BB72007AEDC6 /* InfoPlist.strings */; };
+		0128E71B1871BB72007AEDC6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0128E71A1871BB72007AEDC6 /* main.m */; };
+		0128E71F1871BB72007AEDC6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0128E71E1871BB72007AEDC6 /* AppDelegate.m */; };
+		0128E7211871BB72007AEDC6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0128E7201871BB72007AEDC6 /* Images.xcassets */; };
+		0128E7281871BB72007AEDC6 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0128E7271871BB72007AEDC6 /* XCTest.framework */; };
+		0128E7291871BB72007AEDC6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0128E70E1871BB71007AEDC6 /* Foundation.framework */; };
+		0128E72A1871BB72007AEDC6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0128E7121871BB72007AEDC6 /* UIKit.framework */; };
+		0128E7321871BB72007AEDC6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0128E7301871BB72007AEDC6 /* InfoPlist.strings */; };
+		0128E7341871BB72007AEDC6 /* PassBetweenViewsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0128E7331871BB72007AEDC6 /* PassBetweenViewsTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0128E72B1871BB72007AEDC6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0128E7031871BB71007AEDC6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0128E70A1871BB71007AEDC6;
+			remoteInfo = PassBetweenViews;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0128E70B1871BB71007AEDC6 /* PassBetweenViews.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PassBetweenViews.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0128E70E1871BB71007AEDC6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		0128E7101871BB72007AEDC6 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		0128E7121871BB72007AEDC6 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		0128E7161871BB72007AEDC6 /* PassBetweenViews-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PassBetweenViews-Info.plist"; sourceTree = "<group>"; };
+		0128E7181871BB72007AEDC6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0128E71A1871BB72007AEDC6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0128E71C1871BB72007AEDC6 /* PassBetweenViews-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PassBetweenViews-Prefix.pch"; sourceTree = "<group>"; };
+		0128E71D1871BB72007AEDC6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0128E71E1871BB72007AEDC6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0128E7201871BB72007AEDC6 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		0128E7261871BB72007AEDC6 /* PassBetweenViewsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PassBetweenViewsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0128E7271871BB72007AEDC6 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		0128E72F1871BB72007AEDC6 /* PassBetweenViewsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PassBetweenViewsTests-Info.plist"; sourceTree = "<group>"; };
+		0128E7311871BB72007AEDC6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0128E7331871BB72007AEDC6 /* PassBetweenViewsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PassBetweenViewsTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0128E7081871BB71007AEDC6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0128E7111871BB72007AEDC6 /* CoreGraphics.framework in Frameworks */,
+				0128E7131871BB72007AEDC6 /* UIKit.framework in Frameworks */,
+				0128E70F1871BB71007AEDC6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0128E7231871BB72007AEDC6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0128E7281871BB72007AEDC6 /* XCTest.framework in Frameworks */,
+				0128E72A1871BB72007AEDC6 /* UIKit.framework in Frameworks */,
+				0128E7291871BB72007AEDC6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0128E7021871BB71007AEDC6 = {
+			isa = PBXGroup;
+			children = (
+				0128E7141871BB72007AEDC6 /* PassBetweenViews */,
+				0128E72D1871BB72007AEDC6 /* PassBetweenViewsTests */,
+				0128E70D1871BB71007AEDC6 /* Frameworks */,
+				0128E70C1871BB71007AEDC6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0128E70C1871BB71007AEDC6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0128E70B1871BB71007AEDC6 /* PassBetweenViews.app */,
+				0128E7261871BB72007AEDC6 /* PassBetweenViewsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0128E70D1871BB71007AEDC6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0128E70E1871BB71007AEDC6 /* Foundation.framework */,
+				0128E7101871BB72007AEDC6 /* CoreGraphics.framework */,
+				0128E7121871BB72007AEDC6 /* UIKit.framework */,
+				0128E7271871BB72007AEDC6 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0128E7141871BB72007AEDC6 /* PassBetweenViews */ = {
+			isa = PBXGroup;
+			children = (
+				0128E71D1871BB72007AEDC6 /* AppDelegate.h */,
+				0128E71E1871BB72007AEDC6 /* AppDelegate.m */,
+				0128E7201871BB72007AEDC6 /* Images.xcassets */,
+				0128E7151871BB72007AEDC6 /* Supporting Files */,
+			);
+			path = PassBetweenViews;
+			sourceTree = "<group>";
+		};
+		0128E7151871BB72007AEDC6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0128E7161871BB72007AEDC6 /* PassBetweenViews-Info.plist */,
+				0128E7171871BB72007AEDC6 /* InfoPlist.strings */,
+				0128E71A1871BB72007AEDC6 /* main.m */,
+				0128E71C1871BB72007AEDC6 /* PassBetweenViews-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0128E72D1871BB72007AEDC6 /* PassBetweenViewsTests */ = {
+			isa = PBXGroup;
+			children = (
+				0128E7331871BB72007AEDC6 /* PassBetweenViewsTests.m */,
+				0128E72E1871BB72007AEDC6 /* Supporting Files */,
+			);
+			path = PassBetweenViewsTests;
+			sourceTree = "<group>";
+		};
+		0128E72E1871BB72007AEDC6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0128E72F1871BB72007AEDC6 /* PassBetweenViewsTests-Info.plist */,
+				0128E7301871BB72007AEDC6 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0128E70A1871BB71007AEDC6 /* PassBetweenViews */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0128E7371871BB72007AEDC6 /* Build configuration list for PBXNativeTarget "PassBetweenViews" */;
+			buildPhases = (
+				0128E7071871BB71007AEDC6 /* Sources */,
+				0128E7081871BB71007AEDC6 /* Frameworks */,
+				0128E7091871BB71007AEDC6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PassBetweenViews;
+			productName = PassBetweenViews;
+			productReference = 0128E70B1871BB71007AEDC6 /* PassBetweenViews.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0128E7251871BB72007AEDC6 /* PassBetweenViewsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0128E73A1871BB72007AEDC6 /* Build configuration list for PBXNativeTarget "PassBetweenViewsTests" */;
+			buildPhases = (
+				0128E7221871BB72007AEDC6 /* Sources */,
+				0128E7231871BB72007AEDC6 /* Frameworks */,
+				0128E7241871BB72007AEDC6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0128E72C1871BB72007AEDC6 /* PBXTargetDependency */,
+			);
+			name = PassBetweenViewsTests;
+			productName = PassBetweenViewsTests;
+			productReference = 0128E7261871BB72007AEDC6 /* PassBetweenViewsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0128E7031871BB71007AEDC6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Vadym Zakovinko";
+				TargetAttributes = {
+					0128E7251871BB72007AEDC6 = {
+						TestTargetID = 0128E70A1871BB71007AEDC6;
+					};
+				};
+			};
+			buildConfigurationList = 0128E7061871BB71007AEDC6 /* Build configuration list for PBXProject "PassBetweenViews" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 0128E7021871BB71007AEDC6;
+			productRefGroup = 0128E70C1871BB71007AEDC6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0128E70A1871BB71007AEDC6 /* PassBetweenViews */,
+				0128E7251871BB72007AEDC6 /* PassBetweenViewsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0128E7091871BB71007AEDC6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0128E7191871BB72007AEDC6 /* InfoPlist.strings in Resources */,
+				0128E7211871BB72007AEDC6 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0128E7241871BB72007AEDC6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0128E7321871BB72007AEDC6 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0128E7071871BB71007AEDC6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0128E71F1871BB72007AEDC6 /* AppDelegate.m in Sources */,
+				0128E71B1871BB72007AEDC6 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0128E7221871BB72007AEDC6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0128E7341871BB72007AEDC6 /* PassBetweenViewsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0128E72C1871BB72007AEDC6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0128E70A1871BB71007AEDC6 /* PassBetweenViews */;
+			targetProxy = 0128E72B1871BB72007AEDC6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0128E7171871BB72007AEDC6 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0128E7181871BB72007AEDC6 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		0128E7301871BB72007AEDC6 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0128E7311871BB72007AEDC6 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0128E7351871BB72007AEDC6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0128E7361871BB72007AEDC6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0128E7381871BB72007AEDC6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PassBetweenViews/PassBetweenViews-Prefix.pch";
+				INFOPLIST_FILE = "PassBetweenViews/PassBetweenViews-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		0128E7391871BB72007AEDC6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PassBetweenViews/PassBetweenViews-Prefix.pch";
+				INFOPLIST_FILE = "PassBetweenViews/PassBetweenViews-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		0128E73B1871BB72007AEDC6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PassBetweenViews.app/PassBetweenViews";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PassBetweenViews/PassBetweenViews-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "PassBetweenViewsTests/PassBetweenViewsTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		0128E73C1871BB72007AEDC6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PassBetweenViews.app/PassBetweenViews";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PassBetweenViews/PassBetweenViews-Prefix.pch";
+				INFOPLIST_FILE = "PassBetweenViewsTests/PassBetweenViewsTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0128E7061871BB71007AEDC6 /* Build configuration list for PBXProject "PassBetweenViews" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0128E7351871BB72007AEDC6 /* Debug */,
+				0128E7361871BB72007AEDC6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0128E7371871BB72007AEDC6 /* Build configuration list for PBXNativeTarget "PassBetweenViews" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0128E7381871BB72007AEDC6 /* Debug */,
+				0128E7391871BB72007AEDC6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		0128E73A1871BB72007AEDC6 /* Build configuration list for PBXNativeTarget "PassBetweenViewsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0128E73B1871BB72007AEDC6 /* Debug */,
+				0128E73C1871BB72007AEDC6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0128E7031871BB71007AEDC6 /* Project object */;
+}
