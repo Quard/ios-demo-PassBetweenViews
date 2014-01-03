@@ -19,6 +19,12 @@
 		0128E72A1871BB72007AEDC6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0128E7121871BB72007AEDC6 /* UIKit.framework */; };
 		0128E7321871BB72007AEDC6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0128E7301871BB72007AEDC6 /* InfoPlist.strings */; };
 		0128E7341871BB72007AEDC6 /* PassBetweenViewsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0128E7331871BB72007AEDC6 /* PassBetweenViewsTests.m */; };
+		0128E73E1871BC66007AEDC6 /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0128E73D1871BC66007AEDC6 /* Storyboard.storyboard */; };
+		0128E7471871BD86007AEDC6 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0128E7461871BD86007AEDC6 /* MainViewController.m */; };
+		0128E74A1871C44E007AEDC6 /* ReceiverViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0128E7491871C44E007AEDC6 /* ReceiverViewController.m */; };
+		0128E7501871D008007AEDC6 /* Receiver2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0128E74E1871D008007AEDC6 /* Receiver2ViewController.m */; };
+		0128E7511871D008007AEDC6 /* Receiver2ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0128E74F1871D008007AEDC6 /* Receiver2ViewController.xib */; };
+		0128E7541871D40E007AEDC6 /* SenderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0128E7531871D40E007AEDC6 /* SenderViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +54,16 @@
 		0128E72F1871BB72007AEDC6 /* PassBetweenViewsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PassBetweenViewsTests-Info.plist"; sourceTree = "<group>"; };
 		0128E7311871BB72007AEDC6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		0128E7331871BB72007AEDC6 /* PassBetweenViewsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PassBetweenViewsTests.m; sourceTree = "<group>"; };
+		0128E73D1871BC66007AEDC6 /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
+		0128E7451871BD86007AEDC6 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		0128E7461871BD86007AEDC6 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		0128E7481871C44E007AEDC6 /* ReceiverViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReceiverViewController.h; sourceTree = "<group>"; };
+		0128E7491871C44E007AEDC6 /* ReceiverViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReceiverViewController.m; sourceTree = "<group>"; };
+		0128E74D1871D008007AEDC6 /* Receiver2ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Receiver2ViewController.h; sourceTree = "<group>"; };
+		0128E74E1871D008007AEDC6 /* Receiver2ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Receiver2ViewController.m; sourceTree = "<group>"; };
+		0128E74F1871D008007AEDC6 /* Receiver2ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Receiver2ViewController.xib; sourceTree = "<group>"; };
+		0128E7521871D40E007AEDC6 /* SenderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SenderViewController.h; sourceTree = "<group>"; };
+		0128E7531871D40E007AEDC6 /* SenderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SenderViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +127,16 @@
 				0128E71E1871BB72007AEDC6 /* AppDelegate.m */,
 				0128E7201871BB72007AEDC6 /* Images.xcassets */,
 				0128E7151871BB72007AEDC6 /* Supporting Files */,
+				0128E73D1871BC66007AEDC6 /* Storyboard.storyboard */,
+				0128E7521871D40E007AEDC6 /* SenderViewController.h */,
+				0128E7531871D40E007AEDC6 /* SenderViewController.m */,
+				0128E7451871BD86007AEDC6 /* MainViewController.h */,
+				0128E7461871BD86007AEDC6 /* MainViewController.m */,
+				0128E7481871C44E007AEDC6 /* ReceiverViewController.h */,
+				0128E7491871C44E007AEDC6 /* ReceiverViewController.m */,
+				0128E74D1871D008007AEDC6 /* Receiver2ViewController.h */,
+				0128E74E1871D008007AEDC6 /* Receiver2ViewController.m */,
+				0128E74F1871D008007AEDC6 /* Receiver2ViewController.xib */,
 			);
 			path = PassBetweenViews;
 			sourceTree = "<group>";
@@ -221,6 +247,8 @@
 			files = (
 				0128E7191871BB72007AEDC6 /* InfoPlist.strings in Resources */,
 				0128E7211871BB72007AEDC6 /* Images.xcassets in Resources */,
+				0128E7511871D008007AEDC6 /* Receiver2ViewController.xib in Resources */,
+				0128E73E1871BC66007AEDC6 /* Storyboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -239,8 +267,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0128E74A1871C44E007AEDC6 /* ReceiverViewController.m in Sources */,
 				0128E71F1871BB72007AEDC6 /* AppDelegate.m in Sources */,
+				0128E7501871D008007AEDC6 /* Receiver2ViewController.m in Sources */,
+				0128E7471871BD86007AEDC6 /* MainViewController.m in Sources */,
 				0128E71B1871BB72007AEDC6 /* main.m in Sources */,
+				0128E7541871D40E007AEDC6 /* SenderViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
